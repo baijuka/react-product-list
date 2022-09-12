@@ -6,12 +6,10 @@ import {Card, Button} from 'react-bootstrap';
 const Products = () => {
     const [items, setItems] = useState([]);
     const totalItems = productData.length;
-    let limit = 8;
+    const limit = 8;
     const [pageCount] = useState(Math.ceil(totalItems / limit));
     let currentPage = 1;
     
-    // setPageCount(Math.ceil(totalItems / limit));
-
     useEffect(()=> {
         const getFirstData = productData.slice(0, limit)
         setItems(getFirstData);
