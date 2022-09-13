@@ -48,7 +48,7 @@ const Products = () => {
         <h1 className='bg-info text-white'>Product List</h1>
         {items.map((item)=>(
             <div className='d-inline-flex' key={item.id}>
-                <Card className="shadow p-3 m-2 bg-white rounded" style={{ width: '18rem', height: '38rem' }}>
+                <Card className="shadow p-3 m-2 bg-white rounded" style={{ width: '18rem', height: '36rem' }}>
                 <Card.Img className='p-2'  style={{ width: '100%', height: '10rem' }} variant="top" src={require(`./assets/${item.image}.jpg`)} />
                 <Card.Body>
                     <Card.Title className="text-primary">{item.model}</Card.Title>
@@ -59,9 +59,11 @@ const Products = () => {
                     <div>
                         <p>Qty: <Button onClick={()=>decQty(item.id)} className='m1 btn-secondary'>-</Button>  {item.qty} <Button onClick={()=>incQty(item.id)} className='m1  btn-secondary'>+</Button> </p>
                     </div>
-                    <Button variant="primary">Add to cart</Button>
+                    
                 </Card.Body>
+                <Button variant="primary w-75 mx-auto">Add to cart</Button>
                 </Card>
+                
             </div>
         ))}
         

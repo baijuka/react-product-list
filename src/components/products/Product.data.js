@@ -42,7 +42,7 @@ export const productData = [
     {
         id: 6,
         model: 'Coco Brush Mats',
-        desc: 'These are heavy-duty coir mats, molded into a rectangular or half –moon shaped rubber body. The rubber backing provides non-slip property, and the coir ridges ensure excellent scraping and absorption property to the mats.',
+        desc: 'These are heavy-duty coir mats, molded into a rectangular or half –moon shaped rubber body. The rubber backing provides non-slip property.',
         price: 13.90,
         image: 'IMG5',
         qty: 1
@@ -98,7 +98,7 @@ export const productData = [
     {
         id: 13,
         model: 'Bar Mat',
-        desc: 'Molded rubber bar mats help provide traction on wet floors by allowing the liquids to flow through the mat’s surface, thus allowing the walking surface to dry more quickly.',
+        desc: 'Molded rubber bar mats help provide traction on wet floors by allowing the liquids to flow through the mat’s surface.',
         price: 8.99,
         image: 'IMG12',
         qty: 1
@@ -170,7 +170,7 @@ export const productData = [
     {
         id: 22,
         model: 'Coco Brush Mats',
-        desc: 'These are heavy-duty coir mats, molded into a rectangular or half –moon shaped rubber body. The rubber backing provides non-slip property, and the coir ridges ensure excellent scraping and absorption property to the mats.',
+        desc: 'These are heavy-duty coir mats, molded into a rectangular or half –moon shaped rubber body. ',
         price: 13.99,
         image: 'IMG21',
         qty: 1
@@ -234,7 +234,7 @@ export const productData = [
     {
         id: 30,
         model: 'Comfort Lock Mats',
-        desc: 'Comfort Lock Mat is a comfort floor with an industrial appeal. The surface of this rubber floor features protrusions which increase grip underfoot. This helps to prevent slips and falls in the workplace, even in places where moisture or liquid buildup on the ground is common.',
+        desc: 'Comfort Lock Mat is a comfort floor with an industrial appeal. The surface of this rubber floor features protrusions which increase grip underfoot.',
         price: 12.40,
         image: 'IMG35',
         qty: 1
@@ -250,7 +250,7 @@ export const productData = [
     {
         id: 32,
         model: 'Dolphin Bubble Rolls',
-        desc: 'Unique bubble surface design reduces fatigue from standing and molded rubber bubble on top and bottom of mats ensures comfort and easy air flow. Designed to cover large area without the hurdles of traditional connecting process. Tough and resilient rubber mats feature several air pockets that help to add further anti-fatigue properties while ensuring a strong and viable mat for years to come.',
+        desc: 'Unique bubble surface design reduces fatigue from standing and molded rubber bubble on top and bottom of mats ensures comfort and easy air flow.',
         price: 45.99,
         image: 'IMG31',
         qty: 1
